@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Healthare Checklist Table" max_length="40" name="x_68407_healthare_checklist_table" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="P1 q1" max_length="40" name="p1_q1" type="boolean"/>
+        <element choice="1" label="P1 q2" max_length="40" name="p1_q2" type="choice">
+            <choice/>
+        </element>
+        <element label="P1 q3" max_length="40" name="p1_q3" type="boolean"/>
+        <element label="P1 q4" max_length="40" name="p1_q4" type="boolean"/>
+        <element choice="1" label="P1 q5" max_length="40" name="p1_q5" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="P1 q6" max_length="40" name="p1_q6" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="P1 q7" max_length="40" name="p1_q7" type="choice">
+            <choice/>
+        </element>
+        <element label="P2 q1" max_length="40" name="p2_q1" type="boolean"/>
+        <element choice="1" label="P2 q10" max_length="40" name="p2_q10" type="choice">
+            <choice/>
+        </element>
+        <element label="P2 q2" max_length="40" name="p2_q2" type="boolean"/>
+        <element choice="1" label="P2 q3" max_length="40" name="p2_q3" type="choice">
+            <choice/>
+        </element>
+        <element label="P2 q4" max_length="40" name="p2_q4" type="boolean"/>
+        <element label="P2 q5" max_length="40" name="p2_q5" type="boolean"/>
+        <element label="P2 q6" max_length="40" name="p2_q6" type="boolean"/>
+        <element label="P2 q7" max_length="40" name="p2_q7" type="boolean"/>
+        <element label="P2 q8" max_length="40" name="p2_q8" type="boolean"/>
+        <element label="P2 q9" max_length="40" name="p2_q9" type="boolean"/>
+        <element label="P3 q1" max_length="40" name="p3_q1" type="boolean"/>
+        <element label="P3 q2" max_length="40" name="p3_q2" type="boolean"/>
+        <element label="P3 q3" max_length="40" name="p3_q3" type="boolean"/>
+        <element label="P3 q4" max_length="40" name="p3_q4" type="boolean"/>
+        <element label="P3 q5" max_length="40" name="p3_q5" type="boolean"/>
+        <element label="state" max_length="40" name="state" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>
